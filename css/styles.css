@@ -73,7 +73,7 @@ body {
   color: var(--acccent-color);
 }
 
-/* Benefits */
+/* hero */
 
 .hero {
   background-color: #2f303a;
@@ -90,13 +90,14 @@ body {
   text-transform: uppercase;
 }
 
-.hero .button {
+.button {
   color: var(--primary-background-color);
   background-color: var(--acccent-color);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87px;
+  text-decoration: none;
 }
 
 /* Advantages */
@@ -120,6 +121,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .advantages-list .text {
@@ -157,7 +159,7 @@ body {
 
 /* footer */
 
-.footer {
+.page-footer {
   background-color: #2f303a;
 }
 
@@ -168,12 +170,57 @@ body {
 .contacts-list-footer .link {
   color: var(--secondary-text-color);
 
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
+}
+
+.contacts-list-footer .mail {
+  color: var(--primary-background-color);
 }
 
 .contacts-list-footer .link:hover,
 .contacts-list-footer .link:focus {
   color: var(--acccent-color);
+}
+
+/* Portfolio */
+
+/* buttons */
+
+.filter-button {
+  background-color: var(--primary-background-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-background-color);
+  background-color: var(--acccent-color);
+}
+
+/* projects */
+
+.link {
+  text-decoration: none;
+}
+
+.projects-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-list .text {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
